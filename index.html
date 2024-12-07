@@ -52,6 +52,45 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='flash_cache_image'><video  width=100% muted autoplay loop>
+                  <source src="images/flash_cache.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/qlearning.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function flash_cache_start() {
+                    document.getElementById('qlearning').style.opacity = "1";
+                  }
+        
+                  function flash_cache_stop() {
+                    document.getElementById('qlearning').style.opacity = "0";
+                  }
+                  flash_cache_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2411.19809/">
+                  <span class="papertitle">Q-learning-based Model-free Safety Filter for Soft Robotic Applications</span>
+                </a>
+                <br>
+                <span> Guanqi He</span>,
+                <strong>Yogita Choudhary</strong>,
+                <span>Guanya Shi</span>,
+                <br>
+                <em>Under review at ICRA 2025</em>
+                <br>
+                <a href="https://arxiv.org/abs/2411.19809/">arxiv</a>
+
+                <p></p>
+                <p>
+                  <!-- A more physically-accurate inverse rendering system based on radiance caching for recovering geometry, materials, and lighting from RGB images of an object or scene. -->
+                </p>
+              </td>
+            </tr>
 
     <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
@@ -81,8 +120,6 @@
         <span> Guanqi He</span>,
         <strong>Yogita Choudhary</strong>,
         <span>Guanya Shi</span>,
-        <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>
         <br>
         <em>Under review at ICRA 2025</em>
         <br>
@@ -292,8 +329,6 @@
         <em>Under review at ICRA 2025</em>
         <br>
         <a href="https://arxiv.org/abs/2410.07575/">arxiv</a>
-        /
-        <a href="TODO">arXiv</a>
         <p></p>
         <p>
           <!-- A more physically-accurate inverse rendering system based on radiance caching for recovering geometry, materials, and lighting from RGB images of an object or scene. -->
